@@ -1,7 +1,7 @@
-package br.gov.ufg.dto;
+package br.gov.ufg.api.dto;
 
-import br.gov.ufg.api.Main;
-import br.gov.ufg.entity.Produto;
+import br.gov.ufg.api.main.Main;
+import br.gov.ufg.api.entity.Produto;
 
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -29,7 +29,7 @@ public class ProdutoDTO {
             return Files.lines(caminhoArquivoAbsoluto)
                     .map(line -> {
                         String[] prod = line.split(",");
-                        return new Produto(Integer.parseInt(prod[0]), prod[1], prod[2], new BigDecimal(prod[3]), Integer.valueOf(prod[4]), prod[5]);
+                        return new Produto(Integer.parseInt(prod[0]), prod[1], prod[2], new BigDecimal(prod[3]), Integer.valueOf(prod[4]), prod[5].getBytes());
                     })
                     .collect(Collectors.toList());
         }

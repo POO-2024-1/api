@@ -1,4 +1,4 @@
-package br.gov.ufg.utils;
+package br.gov.ufg.api.utils;
 
 import java.io.*;
 import java.net.URISyntaxException;

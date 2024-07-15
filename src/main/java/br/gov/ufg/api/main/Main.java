@@ -1,25 +1,25 @@
-package br.gov.ufg.api;
+package br.gov.ufg.api.main;
 
-import br.gov.ufg.entity.Produto;
-import br.gov.ufg.utils.FileUtils;
-import org.apache.tomcat.util.codec.binary.Base64;
+import br.gov.ufg.api.entity.Produto;
 
 import java.io.*;
-import java.math.BigDecimal;
 import java.net.URISyntaxException;
 import java.nio.file.Files;
-import java.io.File;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Main {
 
     public static void main(String[] args) throws IOException, URISyntaxException {
 
+
         // caminho relativo
         String fileName = "database/produtos.txt";
+
+        Produto p = new Produto(1,"Tenis","de andar",null,1,null);
+        System.out.println(p);
+
 
         // Tentar obter o caminho do arquivo como um recurso
         java.net.URL resource = Main.class.getClassLoader().getResource(fileName);
