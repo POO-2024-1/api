@@ -42,8 +42,6 @@ public class Main {
             System.out.println("Arquivo não encontrado!");
         }
 
-
-
         try {
             Path imagePath = Paths.get("C:\\projetos\\api\\src\\main\\resources\\imagens\\calca_jeans.png");
             byte[] imagemBytes = Files.readAllBytes(imagePath);

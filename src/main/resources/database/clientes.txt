@@ -1,0 +1,6 @@
+PF,09128,Luis,luis@gmail.com,Rua A,912839021,ze_luis,senha123,12345678901,RG123456,1990-08-15
+PF,09129,Maria,maria@gmail.com,Rua B,912839022,maria_123,senha456,12345678902,RG654321,1985-05-20
+PF,09130,João,joao@gmail.com,Rua C,912839023,joao_joao,senha789,12345678903,RG789123,1992-12-30
+PJ,08127,Empresa1,empresa1@gmail.com,Rua D,912839024,empresa1_user,senhaEmpresa1,12345678000100,Razao Social 1,Inscricao1
+PJ,08128,Empresa2,empresa2@gmail.com,Rua E,912839025,empresa2_user,senhaEmpresa2,12345678000200,Razao Social 2,Inscricao2
+PJ,08129,Empresa3,empresa3@gmail.com,Rua F,912839026,empresa3_user,senhaEmpresa3,12345678000300,Razao Social 3,Inscricao3
